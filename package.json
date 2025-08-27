@@ -1,7 +1,7 @@
 {
   "name": "my-lib-cli-typedoc-bun-test",
   "description": "a template for cli and lib with bun and typedoc",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "type": "module",
   "private": false,
   "bin": {
@@ -31,5 +31,5 @@
   },
   "publishConfig": {
     "access": "public"
-   }
+  }
 }
