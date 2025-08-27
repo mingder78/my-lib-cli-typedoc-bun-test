@@ -5,7 +5,7 @@
   "type": "module",
   "private": true,
   "bin": {
-    "my-lib": "./dist/cli.js"
+    "my-lib-cli": "./dist/cli.js"
   },
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
