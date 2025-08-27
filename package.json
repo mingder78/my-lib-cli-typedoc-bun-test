@@ -3,7 +3,7 @@
   "description": "a template for cli and lib with bun and typedoc",
   "version": "0.0.6",
   "type": "module",
-  "private": false,
+  "private": true,
   "bin": {
     "my-lib-cli": "./dist/cli.js"
   },
