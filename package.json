@@ -3,7 +3,7 @@
   "description": "a template for cli and lib with bun and typedoc",
   "version": "0.0.4",
   "type": "module",
-  "private": true,
+  "private": false,
   "bin": {
     "my-lib-cli": "./dist/cli.js"
   },
@@ -29,5 +29,7 @@
   "peerDependencies": {
     "typescript": "^5"
   },
-  "dependencies": {}
+  "publishConfig": {
+    "access": "public"
+   }
 }
